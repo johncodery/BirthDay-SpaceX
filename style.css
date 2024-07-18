@@ -1,0 +1,227 @@
+body {
+ text-align: center;
+ padding: 0;
+ margin: 0;
+}
+ 
+label {
+   color: #14213d;
+}
+
+ em {
+  padding: 10px 0 5px 0;
+  color: #48cae4;
+}
+
+a {
+  text-decoration: none;
+}
+#glassBackground {
+   background-color: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur();
+   border-radius: 10px;
+   margin: auto;
+}
+
+.nick {
+  border: #90e0ef solid 5px;
+  border-radius: 50%;
+  width: 130px;
+  height: 60%;
+}
+
+.birthtext {
+    font-family: cursive;   
+    color: #48cae4;
+}
+
+.year {
+    background-color: #90e0ef;
+    border-radius: 5px;
+    margin-left: 520px;
+    color: #48cae4;
+    padding: 10px;
+    width: 140px;
+    height: 30px;
+}
+
+.letterNum {
+  background-color: #90e0ef;
+  margin-left: 550px;
+  border-radius: 5px;
+  color: #48cae4;
+  padding: 5px;
+}
+
+.happy {
+  font-family: cursive;
+  text-align: center;
+  color: #48cae4;
+  padding: 10px;
+}
+
+.over {
+    color: #48cae4;
+}
+
+.cat {
+  background-image: url("./ghy.jpg");
+  border:#90e0ef solid 5px;
+  background-size:cover;
+  border-radius: 5px;
+  display: block;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+}
+
+.cat:hover {
+  background-image: url('./erew.webp');
+}
+
+.react {
+  font-family: cursive;
+  color: #48cae4;
+  padding: 10px;
+}
+
+.people {
+  background-image: url(./gift.jpg);
+  border:#90e0ef solid 5px;
+  background-size:cover;
+  border-radius: 5px;
+  display: block;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+}
+
+.people:hover {
+  background-image: url(./giphy.webp);
+}
+
+.this {
+  font-family: cursive;
+  color: #48cae4;
+  padding: 10px;
+}
+
+.beau-gift {
+  background-image: url(./shit.jpg);
+  border:#90e0ef solid 5px;
+  background-size:cover;
+  border-radius: 5px;
+  display: block;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+}
+
+.beau-gift:hover {
+  background-image: url(./giphy3.webp);
+}
+
+.footer {
+  text-decoration: none;
+  padding-top: 10px;
+  margin-right: 205px;
+  color: #fff;
+}
+
+.footer:hover {
+  color: #415a77;
+}
+
+.space {
+border-bottom: solid 3px #14213d;
+color: #78290f;
+}
+
+
+ /* SPACE EXPLORATION */
+
+ .spaceX {
+  padding-top: 10px;
+  width: 20%;
+  height: 20%;
+ }
+
+ .explore {
+   font-size: xx-large;
+   font-weight: bold;
+   line-height: 40px;
+   margin-right: 70px;
+   word-spacing: 5px;
+  color: #457b9d;
+ }
+
+ .exploration {
+  border-bottom: #fff solid 5px; 
+ }
+
+ .apply {
+  background-color: #fff;
+  text-decoration: none;
+  text-decoration: none;
+  padding: 2px 0 0 0 ;
+  margin-left: 565px;
+  color: #457b9d;
+  cursor: pointer;
+  width: 80px;
+  height: 25px;
+ }
+
+ .terms {
+  background-color: #fff;
+  color: #457b9d;
+  height: 400px;
+  padding: 20px;
+  margin-top: 400px;
+ }
+
+/* @media only screen and (min-width: 992px) {
+    body {
+      font-size: 16px;
+      width: 80%;
+      margin: auto;
+    }
+  }
+   */
+
+
+    /* styles for mobile devices */
+    @media only screen and (max-width: 767px) {
+        body {
+          text-align: center;
+          position: static;
+          font-size: 12px;
+          width: 100%;
+          margin: 0;
+          left: 0;
+          right: 0;
+        }
+        .year {
+            margin-left: 370px;
+            text-align: center;
+            padding-top: 10px;
+            height: 20px;
+            width: 130px;
+        }
+        .letterNum {
+            margin-left: 410px;
+            text-align: center;
+        }
+        .over {
+            color: #fff;
+        }
+        .explore {
+          margin-left: 55px;
+        }
+        a, .apply {
+          margin-left: 220px;
+          padding-top: 5px;
+        }
+        .footer {
+          margin-right: 380px;
+        }
+      }
